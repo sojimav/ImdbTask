@@ -1,0 +1,17 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder settings
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore app settings containing sensitive info
+appsettings.Development.json
+appsettings.json
